@@ -1,4 +1,4 @@
-EnmakeCachematrix <- function(x = matrix()){
+makeCachematrix <- function(x = matrix()){
         s <- NULL
         set <- function(y){
                 x <<- y
